@@ -1,0 +1,724 @@
+2024-03-25 01:53:16,070.070	INFO	[main.py:37]	Config: {"exchange": {"volume": 3000}, "traders": [{"count": 10, "type": "Random", "cash": 1000, "assets": 0}, {"count": 10, "type": "Random", "cash": 1000, "assets": 0}, {"count": 10, "type": "Chartist", "cash": 1000, "assets": 0}, {"count": 10, "type": "MarketMaker", "cash": 10000, "softlimit": 100, "assets": 0}], "events": [{"type": "SignalThreshold", "it": 200, "signal_threshold": 1, "traders": []}], "size": 10, "window": 5, "stability_threshold": 5, "iterations": 1000}
+2024-03-25 01:53:16,071.071	ERROR	[main.py:43]	Scenario: scenario1. Configs: [240]
+2024-03-25 01:53:16,071.071	ERROR	[main.py:48]	Config: #0
+2024-03-25 01:53:16,071.071	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:53:17,154.154	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:53:18,948.948	ERROR	[main.py:48]	Config: #1
+2024-03-25 01:53:18,948.948	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:53:20,135.135	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:53:21,866.866	ERROR	[main.py:48]	Config: #2
+2024-03-25 01:53:21,866.866	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:53:23,712.712	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:53:25,446.446	ERROR	[main.py:48]	Config: #3
+2024-03-25 01:53:25,446.446	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:53:27,350.350	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:53:29,051.051	ERROR	[main.py:48]	Config: #4
+2024-03-25 01:53:29,051.051	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:53:30,365.365	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:53:32,108.108	ERROR	[main.py:48]	Config: #5
+2024-03-25 01:53:32,108.108	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:53:33,573.573	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:53:35,395.395	ERROR	[main.py:48]	Config: #6
+2024-03-25 01:53:35,395.395	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:53:37,468.468	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:53:39,305.305	ERROR	[main.py:48]	Config: #7
+2024-03-25 01:53:39,305.305	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:53:41,426.426	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:53:43,140.140	ERROR	[main.py:48]	Config: #8
+2024-03-25 01:53:43,140.140	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:53:44,671.671	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:53:46,526.526	ERROR	[main.py:48]	Config: #9
+2024-03-25 01:53:46,526.526	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:53:48,311.311	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:53:50,013.013	ERROR	[main.py:48]	Config: #10
+2024-03-25 01:53:50,013.013	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:53:52,274.274	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:53:54,183.183	ERROR	[main.py:48]	Config: #11
+2024-03-25 01:53:54,183.183	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:53:56,842.842	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:53:58,591.591	ERROR	[main.py:48]	Config: #12
+2024-03-25 01:53:58,591.591	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:00,131.131	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:02,248.248	ERROR	[main.py:48]	Config: #13
+2024-03-25 01:54:02,248.248	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:03,624.624	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:05,446.446	ERROR	[main.py:48]	Config: #14
+2024-03-25 01:54:05,446.446	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:07,329.329	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:09,103.103	ERROR	[main.py:48]	Config: #15
+2024-03-25 01:54:09,103.103	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:11,579.579	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:13,552.552	ERROR	[main.py:48]	Config: #16
+2024-03-25 01:54:13,552.552	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:14,903.903	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:16,607.607	ERROR	[main.py:48]	Config: #17
+2024-03-25 01:54:16,607.607	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:18,096.096	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:19,801.801	ERROR	[main.py:48]	Config: #18
+2024-03-25 01:54:19,801.801	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:21,772.772	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:23,796.796	ERROR	[main.py:48]	Config: #19
+2024-03-25 01:54:23,796.796	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:25,812.812	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:27,513.513	ERROR	[main.py:48]	Config: #20
+2024-03-25 01:54:27,513.513	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:29,118.118	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:30,876.876	ERROR	[main.py:48]	Config: #21
+2024-03-25 01:54:30,876.876	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:32,695.695	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:34,447.447	ERROR	[main.py:48]	Config: #22
+2024-03-25 01:54:34,447.447	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:37,160.160	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:39,547.547	ERROR	[main.py:48]	Config: #23
+2024-03-25 01:54:39,547.547	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:42,530.530	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:44,322.322	ERROR	[main.py:48]	Config: #24
+2024-03-25 01:54:44,322.322	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:45,682.682	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:47,466.466	ERROR	[main.py:48]	Config: #25
+2024-03-25 01:54:47,466.466	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:48,907.907	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:50,743.743	ERROR	[main.py:48]	Config: #26
+2024-03-25 01:54:50,743.743	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:52,639.639	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:54,423.423	ERROR	[main.py:48]	Config: #27
+2024-03-25 01:54:54,423.423	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:54:56,792.792	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:54:58,938.938	ERROR	[main.py:48]	Config: #28
+2024-03-25 01:54:58,938.938	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:00,225.225	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:55:01,986.986	ERROR	[main.py:48]	Config: #29
+2024-03-25 01:55:01,986.986	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:03,408.408	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:55:05,150.150	ERROR	[main.py:48]	Config: #30
+2024-03-25 01:55:05,150.150	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:07,183.183	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:55:08,941.941	ERROR	[main.py:48]	Config: #31
+2024-03-25 01:55:08,941.941	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:11,155.155	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:55:12,932.932	ERROR	[main.py:48]	Config: #32
+2024-03-25 01:55:12,932.932	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:14,632.632	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:55:16,902.902	ERROR	[main.py:48]	Config: #33
+2024-03-25 01:55:16,902.902	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:18,856.856	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:55:20,602.602	ERROR	[main.py:48]	Config: #34
+2024-03-25 01:55:20,602.602	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:23,139.139	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:55:24,926.926	ERROR	[main.py:48]	Config: #35
+2024-03-25 01:55:24,926.926	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:27,800.800	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:55:29,582.582	ERROR	[main.py:48]	Config: #36
+2024-03-25 01:55:29,583.583	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:31,032.032	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:55:32,756.756	ERROR	[main.py:48]	Config: #37
+2024-03-25 01:55:32,756.756	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:34,278.278	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:55:36,025.025	ERROR	[main.py:48]	Config: #38
+2024-03-25 01:55:36,025.025	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:38,322.322	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:55:40,640.640	ERROR	[main.py:48]	Config: #39
+2024-03-25 01:55:40,640.640	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:43,134.134	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:55:45,010.010	ERROR	[main.py:48]	Config: #40
+2024-03-25 01:55:45,010.010	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:46,787.787	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:55:48,544.544	ERROR	[main.py:48]	Config: #41
+2024-03-25 01:55:48,545.545	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:50,290.290	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:55:52,038.038	ERROR	[main.py:48]	Config: #42
+2024-03-25 01:55:52,038.038	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:54,496.496	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:55:56,261.261	ERROR	[main.py:48]	Config: #43
+2024-03-25 01:55:56,261.261	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:55:58,823.823	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:56:00,600.600	ERROR	[main.py:48]	Config: #44
+2024-03-25 01:56:00,600.600	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:56:02,457.457	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:56:04,190.190	ERROR	[main.py:48]	Config: #45
+2024-03-25 01:56:04,191.191	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:56:06,309.309	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:56:08,047.047	ERROR	[main.py:48]	Config: #46
+2024-03-25 01:56:08,048.048	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:56:11,957.957	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:56:13,685.685	ERROR	[main.py:48]	Config: #47
+2024-03-25 01:56:13,685.685	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:56:16,882.882	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:56:18,594.594	ERROR	[main.py:48]	Config: #48
+2024-03-25 01:56:18,594.594	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:56:22,026.026	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:56:23,734.734	ERROR	[main.py:48]	Config: #49
+2024-03-25 01:56:23,734.734	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:56:26,587.587	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:56:28,282.282	ERROR	[main.py:48]	Config: #50
+2024-03-25 01:56:28,282.282	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:56:33,635.635	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:56:35,345.345	ERROR	[main.py:48]	Config: #51
+2024-03-25 01:56:35,345.345	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:56:39,308.308	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:56:40,988.988	ERROR	[main.py:48]	Config: #52
+2024-03-25 01:56:40,989.989	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:56:43,859.859	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:56:45,557.557	ERROR	[main.py:48]	Config: #53
+2024-03-25 01:56:45,557.557	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:56:48,604.604	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:56:50,271.271	ERROR	[main.py:48]	Config: #54
+2024-03-25 01:56:50,271.271	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:56:55,063.063	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:56:57,791.791	ERROR	[main.py:48]	Config: #55
+2024-03-25 01:56:57,791.791	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:57:01,881.881	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:57:03,557.557	ERROR	[main.py:48]	Config: #56
+2024-03-25 01:57:03,557.557	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:57:07,446.446	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:57:09,167.167	ERROR	[main.py:48]	Config: #57
+2024-03-25 01:57:09,167.167	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:57:12,499.499	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:57:14,172.172	ERROR	[main.py:48]	Config: #58
+2024-03-25 01:57:14,172.172	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:57:20,377.377	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:57:22,088.088	ERROR	[main.py:48]	Config: #59
+2024-03-25 01:57:22,088.088	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}]
+2024-03-25 01:57:26,542.542	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Random']}. State it: 19
+2024-03-25 01:57:28,233.233	ERROR	[main.py:48]	Config: #60
+2024-03-25 01:57:28,233.233	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:57:29,294.294	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:57:31,001.001	ERROR	[main.py:48]	Config: #61
+2024-03-25 01:57:31,001.001	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:57:32,291.291	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:57:34,026.026	ERROR	[main.py:48]	Config: #62
+2024-03-25 01:57:34,026.026	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:57:35,801.801	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:57:37,492.492	ERROR	[main.py:48]	Config: #63
+2024-03-25 01:57:37,492.492	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:57:39,398.398	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:57:41,098.098	ERROR	[main.py:48]	Config: #64
+2024-03-25 01:57:41,098.098	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:57:42,366.366	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:57:44,966.966	ERROR	[main.py:48]	Config: #65
+2024-03-25 01:57:44,966.966	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:57:46,263.263	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:57:47,982.982	ERROR	[main.py:48]	Config: #66
+2024-03-25 01:57:47,982.982	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:57:49,810.810	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:57:51,514.514	ERROR	[main.py:48]	Config: #67
+2024-03-25 01:57:51,514.514	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:57:53,588.588	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:57:55,302.302	ERROR	[main.py:48]	Config: #68
+2024-03-25 01:57:55,302.302	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:57:56,842.842	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:57:58,534.534	ERROR	[main.py:48]	Config: #69
+2024-03-25 01:57:58,534.534	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:00,236.236	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:01,969.969	ERROR	[main.py:48]	Config: #70
+2024-03-25 01:58:01,969.969	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:04,293.293	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:05,984.984	ERROR	[main.py:48]	Config: #71
+2024-03-25 01:58:05,984.984	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:08,429.429	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:10,149.149	ERROR	[main.py:48]	Config: #72
+2024-03-25 01:58:10,149.149	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:11,282.282	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:12,990.990	ERROR	[main.py:48]	Config: #73
+2024-03-25 01:58:12,990.990	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:14,214.214	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:15,920.920	ERROR	[main.py:48]	Config: #74
+2024-03-25 01:58:15,920.920	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:17,649.649	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:19,349.349	ERROR	[main.py:48]	Config: #75
+2024-03-25 01:58:19,349.349	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:21,277.277	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:22,988.988	ERROR	[main.py:48]	Config: #76
+2024-03-25 01:58:22,988.988	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:25,454.454	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:27,155.155	ERROR	[main.py:48]	Config: #77
+2024-03-25 01:58:27,155.155	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:28,471.471	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:30,167.167	ERROR	[main.py:48]	Config: #78
+2024-03-25 01:58:30,167.167	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:32,018.018	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:33,724.724	ERROR	[main.py:48]	Config: #79
+2024-03-25 01:58:33,724.724	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:35,841.841	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:37,556.556	ERROR	[main.py:48]	Config: #80
+2024-03-25 01:58:37,556.556	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:39,111.111	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:40,805.805	ERROR	[main.py:48]	Config: #81
+2024-03-25 01:58:40,805.805	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:42,553.553	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:44,270.270	ERROR	[main.py:48]	Config: #82
+2024-03-25 01:58:44,270.270	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:46,556.556	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:48,251.251	ERROR	[main.py:48]	Config: #83
+2024-03-25 01:58:48,251.251	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:50,807.807	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:52,519.519	ERROR	[main.py:48]	Config: #84
+2024-03-25 01:58:52,519.519	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:53,736.736	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:55,448.448	ERROR	[main.py:48]	Config: #85
+2024-03-25 01:58:55,448.448	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:58:56,738.738	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:58:58,439.439	ERROR	[main.py:48]	Config: #86
+2024-03-25 01:58:58,439.439	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:00,313.313	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:02,023.023	ERROR	[main.py:48]	Config: #87
+2024-03-25 01:59:02,023.023	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:03,990.990	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:05,707.707	ERROR	[main.py:48]	Config: #88
+2024-03-25 01:59:05,708.708	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:07,259.259	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:08,944.944	ERROR	[main.py:48]	Config: #89
+2024-03-25 01:59:08,944.944	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:10,430.430	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:13,596.596	ERROR	[main.py:48]	Config: #90
+2024-03-25 01:59:13,596.596	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:15,578.578	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:17,279.279	ERROR	[main.py:48]	Config: #91
+2024-03-25 01:59:17,279.279	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:19,466.466	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:21,331.331	ERROR	[main.py:48]	Config: #92
+2024-03-25 01:59:21,332.332	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:23,039.039	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:24,765.765	ERROR	[main.py:48]	Config: #93
+2024-03-25 01:59:24,765.765	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:26,572.572	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:28,277.277	ERROR	[main.py:48]	Config: #94
+2024-03-25 01:59:28,278.278	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:30,936.936	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:32,636.636	ERROR	[main.py:48]	Config: #95
+2024-03-25 01:59:32,636.636	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:35,385.385	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:37,109.109	ERROR	[main.py:48]	Config: #96
+2024-03-25 01:59:37,109.109	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:38,364.364	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:40,059.059	ERROR	[main.py:48]	Config: #97
+2024-03-25 01:59:40,059.059	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:41,520.520	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:43,287.287	ERROR	[main.py:48]	Config: #98
+2024-03-25 01:59:43,288.288	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:45,718.718	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:47,406.406	ERROR	[main.py:48]	Config: #99
+2024-03-25 01:59:47,406.406	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:49,531.531	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:51,240.240	ERROR	[main.py:48]	Config: #100
+2024-03-25 01:59:51,240.240	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:52,788.788	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:54,485.485	ERROR	[main.py:48]	Config: #101
+2024-03-25 01:59:54,485.485	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:56,054.054	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 01:59:57,767.767	ERROR	[main.py:48]	Config: #102
+2024-03-25 01:59:57,767.767	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 01:59:59,798.798	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:00:01,509.509	ERROR	[main.py:48]	Config: #103
+2024-03-25 02:00:01,510.510	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:00:03,921.921	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:00:05,737.737	ERROR	[main.py:48]	Config: #104
+2024-03-25 02:00:05,737.737	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:00:07,629.629	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:00:09,392.392	ERROR	[main.py:48]	Config: #105
+2024-03-25 02:00:09,392.392	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:00:11,652.652	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:00:15,760.760	ERROR	[main.py:48]	Config: #106
+2024-03-25 02:00:15,760.760	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:00:18,658.658	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:00:20,421.421	ERROR	[main.py:48]	Config: #107
+2024-03-25 02:00:20,421.421	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:00:23,295.295	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:00:25,049.049	ERROR	[main.py:48]	Config: #108
+2024-03-25 02:00:25,049.049	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:00:29,576.576	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:00:31,408.408	ERROR	[main.py:48]	Config: #109
+2024-03-25 02:00:31,408.408	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:00:35,145.145	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:00:36,908.908	ERROR	[main.py:48]	Config: #110
+2024-03-25 02:00:36,908.908	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:00:42,304.304	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:00:44,122.122	ERROR	[main.py:48]	Config: #111
+2024-03-25 02:00:44,123.123	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:00:48,213.213	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:00:49,978.978	ERROR	[main.py:48]	Config: #112
+2024-03-25 02:00:49,978.978	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:00:54,947.947	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:00:56,691.691	ERROR	[main.py:48]	Config: #113
+2024-03-25 02:00:56,692.692	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:00:59,585.585	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:01:01,313.313	ERROR	[main.py:48]	Config: #114
+2024-03-25 02:01:01,314.314	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:01:05,823.823	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:01:07,550.550	ERROR	[main.py:48]	Config: #115
+2024-03-25 02:01:07,550.550	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:01:11,746.746	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:01:13,688.688	ERROR	[main.py:48]	Config: #116
+2024-03-25 02:01:13,688.688	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:01:18,642.642	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:01:20,490.490	ERROR	[main.py:48]	Config: #117
+2024-03-25 02:01:20,490.490	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:01:25,353.353	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:01:27,183.183	ERROR	[main.py:48]	Config: #118
+2024-03-25 02:01:27,183.183	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:01:33,249.249	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:01:35,046.046	ERROR	[main.py:48]	Config: #119
+2024-03-25 02:01:35,046.046	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}]
+2024-03-25 02:01:40,355.355	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Chartist']}. State it: 19
+2024-03-25 02:01:42,083.083	ERROR	[main.py:48]	Config: #120
+2024-03-25 02:01:42,083.083	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:01:43,135.135	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:01:44,863.863	ERROR	[main.py:48]	Config: #121
+2024-03-25 02:01:44,864.864	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:01:46,221.221	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:01:47,927.927	ERROR	[main.py:48]	Config: #122
+2024-03-25 02:01:47,927.927	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:01:49,625.625	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:01:51,377.377	ERROR	[main.py:48]	Config: #123
+2024-03-25 02:01:51,378.378	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:01:53,315.315	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:01:55,018.018	ERROR	[main.py:48]	Config: #124
+2024-03-25 02:01:55,019.019	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:01:56,153.153	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:01,856.856	ERROR	[main.py:48]	Config: #125
+2024-03-25 02:02:01,857.857	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:03,230.230	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:04,948.948	ERROR	[main.py:48]	Config: #126
+2024-03-25 02:02:04,948.948	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:06,768.768	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:08,467.467	ERROR	[main.py:48]	Config: #127
+2024-03-25 02:02:08,467.467	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:10,409.409	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:12,127.127	ERROR	[main.py:48]	Config: #128
+2024-03-25 02:02:12,127.127	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:13,716.716	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:15,417.417	ERROR	[main.py:48]	Config: #129
+2024-03-25 02:02:15,417.417	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:17,085.085	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:18,784.784	ERROR	[main.py:48]	Config: #130
+2024-03-25 02:02:18,784.784	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:20,988.988	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:22,714.714	ERROR	[main.py:48]	Config: #131
+2024-03-25 02:02:22,714.714	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:25,310.310	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:27,038.038	ERROR	[main.py:48]	Config: #132
+2024-03-25 02:02:27,038.038	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:28,172.172	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:29,888.888	ERROR	[main.py:48]	Config: #133
+2024-03-25 02:02:29,888.888	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:31,161.161	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:32,864.864	ERROR	[main.py:48]	Config: #134
+2024-03-25 02:02:32,865.865	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:34,606.606	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:36,301.301	ERROR	[main.py:48]	Config: #135
+2024-03-25 02:02:36,301.301	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:38,209.209	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:39,909.909	ERROR	[main.py:48]	Config: #136
+2024-03-25 02:02:39,909.909	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:41,054.054	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:42,739.739	ERROR	[main.py:48]	Config: #137
+2024-03-25 02:02:42,739.739	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:44,149.149	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:45,868.868	ERROR	[main.py:48]	Config: #138
+2024-03-25 02:02:45,868.868	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:47,684.684	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:49,389.389	ERROR	[main.py:48]	Config: #139
+2024-03-25 02:02:49,389.389	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:51,441.441	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:53,147.147	ERROR	[main.py:48]	Config: #140
+2024-03-25 02:02:53,147.147	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:54,696.696	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:56,414.414	ERROR	[main.py:48]	Config: #141
+2024-03-25 02:02:56,414.414	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:02:58,204.204	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:02:59,900.900	ERROR	[main.py:48]	Config: #142
+2024-03-25 02:02:59,900.900	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:02,204.204	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:03,922.922	ERROR	[main.py:48]	Config: #143
+2024-03-25 02:03:03,922.922	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:06,530.530	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:08,258.258	ERROR	[main.py:48]	Config: #144
+2024-03-25 02:03:08,258.258	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:09,458.458	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:11,156.156	ERROR	[main.py:48]	Config: #145
+2024-03-25 02:03:11,156.156	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:12,484.484	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:14,185.185	ERROR	[main.py:48]	Config: #146
+2024-03-25 02:03:14,185.185	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:15,959.959	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:19,826.826	ERROR	[main.py:48]	Config: #147
+2024-03-25 02:03:19,826.826	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:21,858.858	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:23,569.569	ERROR	[main.py:48]	Config: #148
+2024-03-25 02:03:23,569.569	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:24,754.754	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:26,444.444	ERROR	[main.py:48]	Config: #149
+2024-03-25 02:03:26,444.444	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:27,903.903	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:29,606.606	ERROR	[main.py:48]	Config: #150
+2024-03-25 02:03:29,606.606	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:31,535.535	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:33,248.248	ERROR	[main.py:48]	Config: #151
+2024-03-25 02:03:33,248.248	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:35,406.406	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:37,099.099	ERROR	[main.py:48]	Config: #152
+2024-03-25 02:03:37,099.099	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:38,719.719	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:40,430.430	ERROR	[main.py:48]	Config: #153
+2024-03-25 02:03:40,430.430	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:42,180.180	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:43,895.895	ERROR	[main.py:48]	Config: #154
+2024-03-25 02:03:43,895.895	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:46,348.348	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:48,027.027	ERROR	[main.py:48]	Config: #155
+2024-03-25 02:03:48,028.028	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:50,558.558	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:52,268.268	ERROR	[main.py:48]	Config: #156
+2024-03-25 02:03:52,268.268	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:53,791.791	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:55,500.500	ERROR	[main.py:48]	Config: #157
+2024-03-25 02:03:55,500.500	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:03:56,927.927	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:03:58,635.635	ERROR	[main.py:48]	Config: #158
+2024-03-25 02:03:58,635.635	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:04:00,648.648	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:04:02,375.375	ERROR	[main.py:48]	Config: #159
+2024-03-25 02:04:02,375.375	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:04:04,578.578	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:04:06,311.311	ERROR	[main.py:48]	Config: #160
+2024-03-25 02:04:06,311.311	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:04:07,961.961	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:04:09,659.659	ERROR	[main.py:48]	Config: #161
+2024-03-25 02:04:09,659.659	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:04:11,293.293	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:04:12,998.998	ERROR	[main.py:48]	Config: #162
+2024-03-25 02:04:12,998.998	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:04:15,189.189	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:04:16,890.890	ERROR	[main.py:48]	Config: #163
+2024-03-25 02:04:16,890.890	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:04:19,170.170	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:04:20,888.888	ERROR	[main.py:48]	Config: #164
+2024-03-25 02:04:20,888.888	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:04:22,943.943	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:04:24,637.637	ERROR	[main.py:48]	Config: #165
+2024-03-25 02:04:24,638.638	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:04:26,742.742	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:04:28,454.454	ERROR	[main.py:48]	Config: #166
+2024-03-25 02:04:28,454.454	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:04:31,131.131	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:04:32,850.850	ERROR	[main.py:48]	Config: #167
+2024-03-25 02:04:32,850.850	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:04:35,823.823	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:04:37,531.531	ERROR	[main.py:48]	Config: #168
+2024-03-25 02:04:37,531.531	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:04:41,043.043	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:04:42,748.748	ERROR	[main.py:48]	Config: #169
+2024-03-25 02:04:42,748.748	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:04:46,526.526	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:04:48,227.227	ERROR	[main.py:48]	Config: #170
+2024-03-25 02:04:48,227.227	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:04:51,968.968	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:04:53,657.657	ERROR	[main.py:48]	Config: #171
+2024-03-25 02:04:53,657.657	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:04:57,983.983	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:04:59,694.694	ERROR	[main.py:48]	Config: #172
+2024-03-25 02:04:59,695.695	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:05:03,834.834	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:05:08,861.861	ERROR	[main.py:48]	Config: #173
+2024-03-25 02:05:08,861.861	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:05:13,159.159	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:05:14,865.865	ERROR	[main.py:48]	Config: #174
+2024-03-25 02:05:14,865.865	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:05:18,550.550	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:05:20,247.247	ERROR	[main.py:48]	Config: #175
+2024-03-25 02:05:20,248.248	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:05:24,818.818	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:05:26,512.512	ERROR	[main.py:48]	Config: #176
+2024-03-25 02:05:26,512.512	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:05:30,195.195	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:05:31,898.898	ERROR	[main.py:48]	Config: #177
+2024-03-25 02:05:31,898.898	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:05:36,880.880	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:05:38,581.581	ERROR	[main.py:48]	Config: #178
+2024-03-25 02:05:38,581.581	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:05:44,177.177	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:05:45,883.883	ERROR	[main.py:48]	Config: #179
+2024-03-25 02:05:45,883.883	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}]
+2024-03-25 02:05:52,177.177	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['MarketMaker']}. State it: 19
+2024-03-25 02:05:53,890.890	ERROR	[main.py:48]	Config: #180
+2024-03-25 02:05:53,890.890	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:05:54,971.971	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:05:56,703.703	ERROR	[main.py:48]	Config: #181
+2024-03-25 02:05:56,703.703	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:05:57,958.958	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:05:59,659.659	ERROR	[main.py:48]	Config: #182
+2024-03-25 02:05:59,659.659	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:01,365.365	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:03,078.078	ERROR	[main.py:48]	Config: #183
+2024-03-25 02:06:03,078.078	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:05,159.159	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:06,878.878	ERROR	[main.py:48]	Config: #184
+2024-03-25 02:06:06,878.878	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:08,014.014	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:09,718.718	ERROR	[main.py:48]	Config: #185
+2024-03-25 02:06:09,718.718	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:11,187.187	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:12,892.892	ERROR	[main.py:48]	Config: #186
+2024-03-25 02:06:12,892.892	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:14,726.726	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:16,448.448	ERROR	[main.py:48]	Config: #187
+2024-03-25 02:06:16,448.448	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:18,556.556	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:20,270.270	ERROR	[main.py:48]	Config: #188
+2024-03-25 02:06:20,270.270	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:21,789.789	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:23,581.581	ERROR	[main.py:48]	Config: #189
+2024-03-25 02:06:23,582.582	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:25,385.385	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:27,098.098	ERROR	[main.py:48]	Config: #190
+2024-03-25 02:06:27,099.099	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:29,484.484	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:31,208.208	ERROR	[main.py:48]	Config: #191
+2024-03-25 02:06:31,208.208	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:33,720.720	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:35,442.442	ERROR	[main.py:48]	Config: #192
+2024-03-25 02:06:35,442.442	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:36,542.542	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:38,256.256	ERROR	[main.py:48]	Config: #193
+2024-03-25 02:06:38,256.256	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:39,588.588	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:41,273.273	ERROR	[main.py:48]	Config: #194
+2024-03-25 02:06:41,274.274	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:43,040.040	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:44,747.747	ERROR	[main.py:48]	Config: #195
+2024-03-25 02:06:44,747.747	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:46,698.698	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:48,415.415	ERROR	[main.py:48]	Config: #196
+2024-03-25 02:06:48,415.415	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:49,606.606	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:51,311.311	ERROR	[main.py:48]	Config: #197
+2024-03-25 02:06:51,311.311	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:52,672.672	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:54,362.362	ERROR	[main.py:48]	Config: #198
+2024-03-25 02:06:54,362.362	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:56,167.167	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:06:57,873.873	ERROR	[main.py:48]	Config: #199
+2024-03-25 02:06:57,873.873	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:06:59,861.861	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:01,580.580	ERROR	[main.py:48]	Config: #200
+2024-03-25 02:07:01,580.580	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:07:03,191.191	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:04,904.904	ERROR	[main.py:48]	Config: #201
+2024-03-25 02:07:04,904.904	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:07:06,793.793	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:08,491.491	ERROR	[main.py:48]	Config: #202
+2024-03-25 02:07:08,491.491	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:07:10,901.901	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:16,656.656	ERROR	[main.py:48]	Config: #203
+2024-03-25 02:07:16,657.657	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:07:19,296.296	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:21,021.021	ERROR	[main.py:48]	Config: #204
+2024-03-25 02:07:21,022.022	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:07:22,259.259	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:23,944.944	ERROR	[main.py:48]	Config: #205
+2024-03-25 02:07:23,945.945	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:07:25,371.371	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:27,077.077	ERROR	[main.py:48]	Config: #206
+2024-03-25 02:07:27,077.077	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:07:28,933.933	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:30,632.632	ERROR	[main.py:48]	Config: #207
+2024-03-25 02:07:30,633.633	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:07:32,737.737	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:34,468.468	ERROR	[main.py:48]	Config: #208
+2024-03-25 02:07:34,469.469	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:07:35,675.675	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:37,363.363	ERROR	[main.py:48]	Config: #209
+2024-03-25 02:07:37,364.364	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:07:38,791.791	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:40,517.517	ERROR	[main.py:48]	Config: #210
+2024-03-25 02:07:40,517.517	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:07:42,373.373	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:44,093.093	ERROR	[main.py:48]	Config: #211
+2024-03-25 02:07:44,093.093	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:07:46,067.067	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:47,778.778	ERROR	[main.py:48]	Config: #212
+2024-03-25 02:07:47,778.778	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:07:49,383.383	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:51,097.097	ERROR	[main.py:48]	Config: #213
+2024-03-25 02:07:51,097.097	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:07:52,863.863	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:54,575.575	ERROR	[main.py:48]	Config: #214
+2024-03-25 02:07:54,575.575	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:07:57,078.078	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:07:58,797.797	ERROR	[main.py:48]	Config: #215
+2024-03-25 02:07:58,798.798	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:08:01,414.414	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:08:03,141.141	ERROR	[main.py:48]	Config: #216
+2024-03-25 02:08:03,141.141	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:08:04,694.694	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:08:06,398.398	ERROR	[main.py:48]	Config: #217
+2024-03-25 02:08:06,398.398	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:08:07,815.815	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:08:09,511.511	ERROR	[main.py:48]	Config: #218
+2024-03-25 02:08:09,511.511	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:08:11,637.637	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:08:13,349.349	ERROR	[main.py:48]	Config: #219
+2024-03-25 02:08:13,349.349	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:08:15,448.448	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:08:17,181.181	ERROR	[main.py:48]	Config: #220
+2024-03-25 02:08:17,181.181	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:08:18,716.716	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:08:20,392.392	ERROR	[main.py:48]	Config: #221
+2024-03-25 02:08:20,392.392	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:08:22,215.215	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:08:23,925.925	ERROR	[main.py:48]	Config: #222
+2024-03-25 02:08:23,925.925	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:08:26,292.292	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:08:27,984.984	ERROR	[main.py:48]	Config: #223
+2024-03-25 02:08:27,984.984	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:08:30,509.509	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:08:32,199.199	ERROR	[main.py:48]	Config: #224
+2024-03-25 02:08:32,202.202	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:08:34,218.218	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:08:35,919.919	ERROR	[main.py:48]	Config: #225
+2024-03-25 02:08:35,919.919	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:08:37,936.936	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:08:39,629.629	ERROR	[main.py:48]	Config: #226
+2024-03-25 02:08:39,629.629	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:08:42,689.689	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:08:44,386.386	ERROR	[main.py:48]	Config: #227
+2024-03-25 02:08:44,386.386	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:08:47,280.280	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:08:49,015.015	ERROR	[main.py:48]	Config: #228
+2024-03-25 02:08:49,016.016	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:08:52,006.006	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:08:53,724.724	ERROR	[main.py:48]	Config: #229
+2024-03-25 02:08:53,724.724	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:08:57,884.884	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:08:59,653.653	ERROR	[main.py:48]	Config: #230
+2024-03-25 02:08:59,653.653	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:09:03,921.921	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:09:05,639.639	ERROR	[main.py:48]	Config: #231
+2024-03-25 02:09:05,639.639	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:09:09,400.400	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:09:11,084.084	ERROR	[main.py:48]	Config: #232
+2024-03-25 02:09:11,084.084	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:09:15,899.899	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:09:17,606.606	ERROR	[main.py:48]	Config: #233
+2024-03-25 02:09:17,606.606	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:09:20,586.586	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:09:22,288.288	ERROR	[main.py:48]	Config: #234
+2024-03-25 02:09:22,288.288	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:09:27,888.888	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:09:29,596.596	ERROR	[main.py:48]	Config: #235
+2024-03-25 02:09:29,596.596	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:09:34,327.327	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:09:36,041.041	ERROR	[main.py:48]	Config: #236
+2024-03-25 02:09:36,041.041	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:09:39,520.520	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:09:41,243.243	ERROR	[main.py:48]	Config: #237
+2024-03-25 02:09:41,243.243	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:09:45,313.313	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:09:47,040.040	ERROR	[main.py:48]	Config: #238
+2024-03-25 02:09:47,040.040	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:09:58,095.095	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
+2024-03-25 02:09:58,096.096	INFO	[export.py:81]	205
+2024-03-25 02:09:58,096.096	INFO	[export.py:82]	355
+2024-03-25 02:09:59,846.846	ERROR	[main.py:48]	Config: #239
+2024-03-25 02:09:59,847.847	ERROR	[main.py:49]	Events: [{'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}]
+2024-03-25 02:10:05,413.413	INFO	[export.py:58]	Event: {'type': 'SignalThreshold', 'it': 200, 'signal_threshold': 1, 'traders': ['Fundamentalist']}. State it: 19
